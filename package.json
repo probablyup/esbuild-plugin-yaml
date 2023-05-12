@@ -1,12 +1,15 @@
 {
-  "name": "esbuild-plugin-yaml",
-  "version": "0.0.1",
-  "description": "Convert YAML files to ES6 modules",
+  "name": "@probablyup/esbuild-plugin-yaml",
+  "version": "0.1.0",
+  "description": "Convert YAML files to ES6 modules, with watch mode support.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/martonlederer/esbuild-plugin-yaml",
   "author": "Marton Lederer <marton@lederer.hu>",
+  "contributors": [
+    "Evan Jacobs <probablyup@gmail.com>"
+  ],
   "license": "MIT",
   "private": false,
   "publishConfig": {

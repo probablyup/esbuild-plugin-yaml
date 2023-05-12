@@ -1,17 +1,17 @@
-# esbuild-plugin-yaml
+# @probablyup/esbuild-plugin-yaml
 
-Use YAML files as ES6 modules with `esbuild`.
+Use YAML files as ES6 modules with `esbuild`, with watch mode support. This is a temporary fork of `esbuild-plugin-yaml` until this PR is merged: https://github.com/martonlederer/esbuild-plugin-yaml/pull/4
 
 ## Install
 
 ```sh
-yarn add -D esbuild-plugin-yaml
+yarn add -D @probablyup/esbuild-plugin-yaml
 ```
 
 or
 
 ```sh
-npm i -D esbuild-plugin-yaml
+npm i -D @probablyup/esbuild-plugin-yaml
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ Add to your esbuild plugins list:
 
 ```js
 const esbuild = require("esbuild");
-const { yamlPlugin } = require("esbuild-plugin-yaml");
+const { yamlPlugin } = require("@probablyup/esbuild-plugin-yaml");
 
 esbuild.build({
   ...
@@ -33,7 +33,7 @@ esbuild.build({
 
 ## Options
 
-You can add your own custom configuration of options to `esbuild-plugin-yaml`:
+You can add your own custom configuration of options to `@probablyup/esbuild-plugin-yaml`:
 
 ```js
 yamlPlugin({
